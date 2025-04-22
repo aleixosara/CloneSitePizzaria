@@ -79,39 +79,42 @@ nav ul li a {
 }
 
 .pizzas p {
-    background-color: #f6f6ff;
-    padding: 15px;
-    border-radius: 12px;
+    background-color: #eaeaea;
+    width: 100%;
+    max-width: 400px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: left;
+    margin-top: 0;
+    padding: 30px;
+    font-size: small;
+    box-sizing: border-box;
 }
 
 .pizzas {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    width: 99%;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    justify-items: center;
+    padding: 0 300px;
 }
 
 .pizzas img {
     width: 100%;
+    max-width: 400px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+#secao2 h1 {
+    font-size: 3rem;
 }
 
 #secao2 {
+    padding-top: 50px;
     background: white;
-    text-align: center;
-}
-
-#secao2 form {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-#secao2 #pesquisa {
     text-align: center;
 }
 
@@ -119,52 +122,67 @@ nav ul li a {
     background: white;
 }
 
-#secao4 {
-    background: #e7e7e7;
-}
-
-#secao4 form {
+.hero2 {
+    position: relative;
     text-align: center;
-    width: 700px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-left: 28%;
+    color: white;
 }
 
-#secao4 input[type="text"]::placeholder {
-    background-color: #e7e7e7;
+.hero2 h1 {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
 }
 
-#secao4 textarea {
-    resize: vertical;
-    overflow: auto;
-    border: 1px solid;
-    height: 45px;
-    border-color: #959595;
-    background-color: #e7e7e7;
-    border-radius: 10px;
-    padding-left: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 10px;
+.hero2 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    filter: brightness(50%);
 }
 
-#secao4 input[type="text"] {
-    border: 1px solid;
-    height: 45px;
-    border-color: #959595;
-    background-color: #e7e7e7;
-    border-radius: 10px;
-    padding-left: 15px;
+.hero2 p {
+    position: absolute;
+    font-size: small;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#secao4 button {
-    background-color: #162156;
-    border: none;
-    border-radius: 10px;
-    color: #f2f1f1;
-    cursor: pointer;
-    height: 45px;
+#secao4 {
+    padding-top: 20px;
+    background: white;
+    text-align: center;
+    padding-bottom: 85px;
+}
+
+#secao4 h1 {
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+
+#secao4 .pragreafo {
+    margin-top: 0px;
+}
+
+#secao4 .contato-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    text-align: left;
+    padding: 0 420px;
+}
+
+#secao4 .horario{
+    display: block;
+    justify-items: center;
+    text-align: left;
+}
+
+#secao4 a{
+    color: #da7400;
 }
 
 footer {
@@ -181,11 +199,6 @@ footer button {
     background-color: transparent;
     border: none;
     color: #e7e7e7;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
 }
 
 
