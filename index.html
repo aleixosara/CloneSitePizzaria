@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="landing.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
@@ -39,18 +40,23 @@
 
             <img src="imagens/alla alessio's.png">
             <img src="imagens/vegetariana.png">
-            <p><strong>Pizza Alla Alessio's</strong><br>Molho de tomate, queijo mussarela, milho, calabresa, pimentão vermelho, pimentão verde, champignon, cebola roxa</p>
-            <p><strong>Pizza Vegetariana</strong><br>Molho de tomate, queijo mussarela, azeitonas pretas, tomate, cogumelos, pimentão.</p>
+            <p><strong>Pizza Alla Alessio's</strong><br>Molho de tomate, queijo mussarela, milho, calabresa, pimentão
+                vermelho, pimentão verde, champignon, cebola roxa</p>
+            <p><strong>Pizza Vegetariana</strong><br>Molho de tomate, queijo mussarela, azeitonas pretas, tomate,
+                cogumelos, pimentão.</p>
 
             <img src="imagens/mediterrânea.png">
             <img src="imagens/piccante di manzo.png">
-            <p><strong>Pizza Mediterrânea</strong><br>Molho de tomate, queijo mussarela, queijo parmesão, azeitonas pretas, tomate seco, espinafre, alcachofra.</p>
+            <p><strong>Pizza Mediterrânea</strong><br>Molho de tomate, queijo mussarela, queijo parmesão, azeitonas
+                pretas, tomate seco, espinafre, alcachofra.</p>
             <p><strong>Pizza Picante di Manzo</strong><br>Molho de tomate, queijo mussarela, carne moída, jalapeño.</p>
 
             <img src="imagens/doce tentação.png">
             <img src="imagens/encanto de chocolate.png">
-            <p><strong>Pizza Doce Tentação</strong><br>Creme de avelã, chocolate branco, biscoitos Oreo, morangos frescos, chocolate ao leite.</p>
-            <p><strong>Pizza Encanto de Chocolate</strong><br>Leite condensado, creme de avelã, choclate meio amargo.</p>
+            <p><strong>Pizza Doce Tentação</strong><br>Creme de avelã, chocolate branco, biscoitos Oreo, morangos
+                frescos, chocolate ao leite.</p>
+            <p><strong>Pizza Encanto de Chocolate</strong><br>Leite condensado, creme de avelã, choclate meio amargo.
+            </p>
         </div>
     </section>
 
@@ -58,18 +64,38 @@
         <div class="hero2">
             <img src="imagens/pizza2.png">
             <h1>Sobre Nós</h1>
-            <p>Nossa pizzaria é dedicada a criar as melhores pizzas da América Latina, com ingredientes frescos e receitas exclusivas.</p>
+            <p>Nossa pizzaria é dedicada a criar as melhores pizzas da América Latina, com ingredientes frescos e
+                receitas exclusivas.</p>
         </div>
+        <h3>Envie sua sugestão de pizza:</h3>
+        <form action="" method="get">
+            <p>Tipo de Pizza:</p>
+            <input list="tipoPizza" id="pizza" name="pizza" required>
+
+            <datalist id="tipoPizza">
+                <option value="Salgada">
+                <option value="Doce">
+            </datalist>
+
+
+            <button type="submit">BUSCAR</button>
+        </form>
     </section>
 
     <section id="secao4">
         <h1>Contato</h1>
         <p class="paragrafo">Entre em contato conosco para fazer pedidos ou tirar suas dúvidas.</p>
         <i class="contato-info">
-            <p><strong>Endereço:</strong> Avenida Onze de Outubro, n° 123,<br> Centro Cidade Qualquer/RJ CEP:12345-678</p>
-            <p><strong>Telefone:</strong> (11)55555-5555<br><strong>E-mail:</strong> <a href="https://mail.google.com/mail/?view=cm&to=contato@alessios.pizza" target="_blank">contato@alessios.pizza</a></p>
+            <p><strong>Endereço:</strong> Avenida Onze de Outubro, n° 123,<br> Centro Cidade Qualquer/RJ CEP:12345-678
+            </p>
+            <p><strong>Telefone:</strong> (11)55555-5555<br><strong>E-mail:</strong> <a
+                    href="https://mail.google.com/mail/?view=cm&to=contato@alessios.pizza"
+                    target="_blank">contato@alessios.pizza</a></p>
         </i>
-        <i class="horario"><p><strong>Horário Funcionamento:</strong><br> Segunda a Sábado: 11h00 às 23:00h - Domingo: 16h00 às 23:00h</p></i>
+        <i class="horario">
+            <p><strong>Horário Funcionamento:</strong><br> Segunda a Sábado: 11h00 às 23:00h - Domingo: 16h00 às 23:00h
+            </p>
+        </i>
     </section>
     <footer>
         <p>&copy; 2025 Alessio's Pizzaria</p>

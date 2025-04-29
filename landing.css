@@ -152,6 +152,40 @@ nav ul li a {
     transform: translate(-50%, -50%);
 }
 
+#secao3 h3 {
+    text-align: center;
+}
+
+#secao3 form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#secao3 input[list="tipoPizza"] {
+    width: 200px;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+#secao3 input[list="tipoPizza"]::placeholder {
+    color: #f36b3c;
+}
+
+#secao3 button {
+    background-color: #f36b3c;
+    border-radius: 20px;
+    border: none;
+    color: #f2f1f1;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+}
+
+#secao3 button:hover {background-color: #EF9651}
+
 #secao4 {
     padding-top: 20px;
     background: white;
