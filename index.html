@@ -67,9 +67,9 @@
             <p>Nossa pizzaria é dedicada a criar as melhores pizzas da América Latina, com ingredientes frescos e
                 receitas exclusivas.</p>
         </div>
-        <h3>Envie sua sugestão de pizza:</h3>
+        <h3>Envie sua sugestão de pizza</h3>
         <form action="" method="get">
-            <p>Tipo de Pizza:</p>
+            <p>Tipo de Pizza</p>
             <input list="tipoPizza" id="pizza" name="pizza" required>
 
             <datalist id="tipoPizza">
@@ -77,8 +77,30 @@
                 <option value="Doce">
             </datalist>
 
+            <p>Descrição da Pizza</p>
+            <input type="text" required>
 
-            <button type="submit">BUSCAR</button>
+            <p>Ingredientes Obrigatórios</p>
+            <div class="checkboxes">
+                <label><input type="checkbox"> Molho de Tomate</label>
+                <label><input type="checkbox"> Queijo (Mussarela)</label>
+                <label><input type="checkbox"> Calabresa</label>
+                <label><input type="checkbox"> Catupiry</label>
+                <label><input type="checkbox"> Frango</label>
+                <label><input type="checkbox"> Leite Condensado</label>
+                <label><input type="checkbox"> Creme de Avelã</label>
+                <label><input type="checkbox"> Doce de Leite</label>
+                <label><input type="checkbox"> Ganache de Chocolate Meio Amargo</label>
+                <label><input type="checkbox"> Ganache de Chocolate Branco</label>
+                <label><input type="checkbox"> Morango</label>
+                <label><input type="checkbox"> Chocolate ao Leite</label>
+                <label><input type="checkbox"> Chocolate Branco</label>
+            </div>
+
+            <p>Valor Sugerido</p>
+            <input type="text" required>
+
+            <button type="submit">ENVIAR</button>
         </form>
     </section>
 
