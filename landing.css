@@ -178,19 +178,23 @@ nav ul li a {
 .checkboxes label {
     display: flex;
     align-items: center;
-    gap: 6px;
     margin-bottom: 5px;
     font-size: 14px;
 }
 
+.checkboxes input {
+    margin-right: -70px;
+  }
+
 #secao3 button {
+    margin-top: 20px;
     background-color: #423cf3;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     color: #f2f1f1;
     cursor: pointer;
     height: 40px;
-    width: 100px;
+    width: 200px;
 }
 
 #secao3 button:hover {background-color: #3c73f3}
@@ -206,7 +210,7 @@ nav ul li a {
     margin-bottom: 0px;
 }
 
-#secao4 .pragreafo {
+#secao4 .paragrafo {
     margin-top: 0px;
 }
 
